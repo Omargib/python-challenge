@@ -70,6 +70,3 @@ with open(output_file, "w", newline="") as datafile:
     datafile.write(f" Greatest Decrease in Profits {months[min_month]} ${min(profit_losses)}\n")
     
 
-    # Write the header row
-    # *writer.writerow(["Title", "Course Price", "Subscribers", "Reviews Left",
-                     # * "Percent of Reviews", "Length of Course"])
