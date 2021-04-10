@@ -46,11 +46,6 @@ with open(csvpath) as csvfile:
     print(months[min_month])
     print(min(profit_losses))
 
-
-
-
-    
-
 # --------------------------------------------------------------------------------------------------------------
 # WRITE THE FINAL OUTCOME
 
