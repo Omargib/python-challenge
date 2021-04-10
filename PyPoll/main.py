@@ -4,9 +4,12 @@ import os
 # improt module for reading csv file
 import csv
 
+
+
 # Lists to store data
 
 votes = []
+Candidates = []
 
 csvpath = os.path.join('Resources', 'election_data.csv')
 
